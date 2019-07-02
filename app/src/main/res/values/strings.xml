@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QQLogin</string>
+    <string name="login_note">登录即代表阅读并同意</string>
+    <string name="service_agreement">服务协议</string>
+    <string name="user_register">用户注册</string>
+    <string name="ignore_password">忘记密码</string>
+</resources>
