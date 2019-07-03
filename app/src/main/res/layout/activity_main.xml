@@ -10,13 +10,15 @@
 
     <ImageView
         android:id="@+id/img_qq"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/qq_logo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-       android:src="@drawable/qq_logo"
-        android:contentDescription="TODO" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -29,10 +31,13 @@
         tools:layout_editor_absoluteX="42dp">
 
         <ImageView
-            android:layout_width="50dp"
+            android:id="@+id/img_qq_avatar"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/img_avatar"
-            android:visibility="gone"/>
+            android:layout_weight="5"
+            android:visibility="invisible"
+            android:contentDescription="TODO" />
 
         <EditText
             android:id="@+id/ed_account"
@@ -40,9 +45,19 @@
             android:layout_height="match_parent"
             android:background="@drawable/btn_tv"
             android:gravity="center"
+            android:layout_weight="1"
             android:ems="10"
-
-            android:inputType="phone" />
+            android:inputType="phone"
+            android:hint="手机号" />
+        <TextView
+            android:id="@+id/clean_account"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="5"
+            android:visibility="invisible"
+            android:textColor="@color/color_btn_bg"
+            android:text="X" />
     </LinearLayout>
 
     <LinearLayout
@@ -52,8 +67,19 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/btn_tv"
         android:orientation="horizontal"
+        tools:layout_editor_absoluteX="42dp"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
-        tools:layout_editor_absoluteX="0dp">
+        >
+
+        <TextView
+            android:id="@+id/display_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="5"
+            android:textColor="@color/color_btn_bg"
+            android:visibility="invisible"
+            android:text="D" />
 
         <EditText
             android:id="@+id/ed_password"
@@ -62,22 +88,34 @@
             android:background="@drawable/btn_tv"
             android:gravity="center"
             android:ems="10"
-            android:inputType="numberPassword"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+            android:hint="输入密码" />
+
+        <TextView
+            android:id="@+id/clean_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="5"
+            android:textColor="@color/color_btn_bg"
+            android:visibility="invisible"
+            android:text="X" />
     </LinearLayout>
 
     <ImageButton
         android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="64dp"
         android:background="@drawable/btn_login"
+        android:contentDescription="@string/app_name"
         android:scaleType="fitXY"
+        android:src="@android:drawable/ic_menu_send"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        android:src="@android:drawable/ic_menu_send"
-        android:contentDescription="@string/app_name"/>
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
     <LinearLayout
         android:layout_width="wrap_content"

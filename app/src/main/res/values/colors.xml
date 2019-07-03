@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="color_tv_bg">#F2F3F7</color>
+    <color name="color_btn_bg">#D5D6E2</color>
     <color name="color_start">#CB37A6FE</color>
     <color name="color_end">#0C7BE9</color>
+    <color name="color_transparent">#00000000</color>
 </resources>
