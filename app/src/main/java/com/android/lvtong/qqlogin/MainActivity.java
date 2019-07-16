@@ -1,6 +1,7 @@
 package com.android.lvtong.qqlogin;
 import	java.util.ArrayList;
 
+import android.app.ActivityOptions;
 import android.app.Dialog;
 import android.content.Intent;
 import android.net.Uri;
