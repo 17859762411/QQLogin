@@ -23,7 +23,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     private CheckBox checkBox;
     private LinearLayout hide_layout;
 
-    private String[] items = this.getResources().getStringArray(R.array.dialog_countries_num);
+    private String[] items;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +50,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 }
             }
         });
+        items = this.getResources().getStringArray(R.array.dialog_countries_num);
+        countries.setOnClickListener(this);
     }
 
     private void init() {
@@ -77,7 +79,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         builder.setItems(R.array.dialog_countries, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                countries.setText(items[which]);
+                countries.setText(items[which] + "∨");
                 Toast.makeText(RegisterActivity.this, "clicked:" + which, Toast.LENGTH_LONG).show();
             }
         });
