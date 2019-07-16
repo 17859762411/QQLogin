@@ -15,8 +15,8 @@
         android:endColor="@color/color_end"
         android:type="linear"
         android:useLevel="false"
-        android:gradientRadius="25"
-        android:angle="45"
+        android:gradientRadius="25dp"
+        android:angle="0"
         />
 
 </shape>

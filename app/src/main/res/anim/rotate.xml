@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:fromDegrees="0"
+        android:toDegrees="+360"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="5000"/>
+
+    <!--
+        旋转和缩放都需要指定中心点，同样在取值时要指定是相对父控件还是相对自己
+        50% 表示自己的中心
+        fromDegrees ： 动画开始时的角度
+        toDegrees ： 动画结束时旋转的角度 可以大于 360
+
+    -->
+</set>

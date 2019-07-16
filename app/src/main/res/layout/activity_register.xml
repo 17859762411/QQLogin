@@ -104,7 +104,7 @@
         android:text="下一步"
         android:textColor="@android:color/white"
         android:textSize="18sp"
-        android:background="@color/color_start"
+        android:background="@color/color_start_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
@@ -160,11 +160,11 @@
         <TextView
             android:id="@+id/yinsizhengce"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="隐私政策"
             android:textColor="@color/color_start"
-            android:textSize="11sp"/>
+            android:textSize="11sp" />
     </LinearLayout>
 
 

@@ -5,7 +5,8 @@
     <color name="colorAccent">@color/color_start</color>
     <color name="color_tv_bg">#F2F3F7</color>
     <color name="color_btn_bg">#D5D6E2</color>
-    <color name="color_start">#CB37A6FE</color>
-    <color name="color_end">#0C7BE9</color>
+    <color name="color_start_1">#CB37A6FE</color>
+    <color name="color_start">#91C8FC</color>
+    <color name="color_end">#027FF8</color>
     <color name="color_transparent">#00000000</color>
 </resources>

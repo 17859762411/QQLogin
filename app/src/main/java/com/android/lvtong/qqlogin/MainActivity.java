@@ -1,6 +1,7 @@
 package com.android.lvtong.qqlogin;
 import	java.util.ArrayList;
 
+import android.animation.Animator;
 import android.app.ActivityOptions;
 import android.app.Dialog;
 import android.content.Intent;
@@ -19,6 +20,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.view.animation.LinearInterpolator;
+import android.view.animation.RotateAnimation;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -64,6 +69,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setOnClick();
         setAccountInput();
         setPasswordInput();
+        animationRotate();
+    }
+
+    private void animationRotate() {
+        final RotateAnimation animation = new RotateAnimation(0.0f, 360.0f,
+                Animation.RELATIVE_TO_SELF, 0.5f,
+                Animation.RELATIVE_TO_SELF, 0.5f);
+        animation.setDuration( 5000 );
+        btnLogin.startAnimation( animation );
+        animation.setAnimationListener(new Animation.AnimationListener() {
+            @Override
+            public void onAnimationStart(Animation animation) {
+
+            }
+
+            @Override
+            public void onAnimationEnd(Animation animation) {
+                animationRotate();
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+
+            }
+        });
+
     }
 
     private void findId() {
@@ -252,6 +283,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.tv_agreement:
                 Intent intent3=new Intent(MainActivity.this,AgreementActivity.class);
+                intent3.putExtra("type","agreement");
                 startActivity(intent3);
                 Toast.makeText(this, "服务协议", Toast.LENGTH_SHORT).show();
                 break;

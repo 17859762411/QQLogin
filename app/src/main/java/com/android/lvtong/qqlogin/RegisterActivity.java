@@ -1,6 +1,7 @@
 package com.android.lvtong.qqlogin;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -52,6 +53,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         });
         items = this.getResources().getStringArray(R.array.dialog_countries_num);
         countries.setOnClickListener(this);
+        fuwu.setOnClickListener(this);
+        yinsi.setOnClickListener(this);
     }
 
     private void init() {
@@ -69,6 +72,18 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         switch ((v.getId())){
             case R.id.textView9:
                 showDialogCountries();
+            case R.id.fuwuxieyi:
+                Intent intent = new Intent();
+                intent.setClass(this,AgreementActivity.class);
+                intent.putExtra("type","agreement");
+                startActivity(intent);
+                break;
+            case R.id.yinsizhengce:
+                Intent intent1 = new Intent();
+                intent1.setClass(this,AgreementActivity.class);
+                intent1.putExtra("type","yinsi");
+                startActivity(intent1);
+                break;
                 default:
         }
     }
