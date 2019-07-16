@@ -9,7 +9,7 @@
         android:id="@+id/tv_retrieve_password"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="找回密码"
+        android:text="@string/back_password"
         android:gravity="center"
         android:textSize="16sp"
         android:textColor="@android:color/background_dark"/>
@@ -23,7 +23,7 @@
         android:id="@+id/tv_SMS_login"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="短信验证登录"
+        android:text="@string/login_by_sms"
         android:gravity="center"
         android:textSize="16sp"
         android:textColor="@android:color/background_dark"/>

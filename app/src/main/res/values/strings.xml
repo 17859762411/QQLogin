@@ -4,4 +4,6 @@
     <string name="service_agreement">服务协议</string>
     <string name="user_register">用户注册</string>
     <string name="ignore_password">忘记密码</string>
+    <string name="back_password">找回密码</string>
+    <string name="login_by_sms">短信验证登录</string>
 </resources>

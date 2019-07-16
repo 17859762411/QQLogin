@@ -21,7 +21,11 @@
             android:parentActivityName=".MainActivity"
             >
         </activity>
-        <activity android:name=".IgnoreActivity" />
+        <activity
+            android:name=".IgnoreActivity"
+            android:parentActivityName=".MainActivity"
+            >
+        </activity>
         <activity android:name=".Main2Activity" />
         <activity
             android:name=".MainActivity"

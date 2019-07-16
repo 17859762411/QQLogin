@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView tvAgreement;
     private Boolean isShowPassword = false;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -183,14 +184,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         dialog.findViewById(R.id.tv_retrieve_password).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dialog.dismiss();
+               Intent ignoreIntent = new Intent();
+                ignoreIntent.setClass(MainActivity.this,IgnoreActivity.class);
+                ignoreIntent.putExtra("type",getString(R.string.back_password));
+               startActivity(ignoreIntent);
             }
         });
 
         dialog.findViewById(R.id.tv_SMS_login).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dialog.dismiss();
+                Intent ignoreIntent = new Intent();
+                ignoreIntent.setClass(MainActivity.this,IgnoreActivity.class);
+                ignoreIntent.putExtra("type",getString(R.string.login_by_sms));
+                startActivity(ignoreIntent);
+
             }
         });
 
