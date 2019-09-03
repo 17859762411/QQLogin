@@ -1,0 +1,11 @@
+
+Csquid:S1068",Remove this unused "et_phone" private field.(ãªÃî
+Dsquid:S1068"-Remove this unused "yaoqingma" private field.(ºžƒü
+nsquid:S1450"WRemove the "et_phone" field and declare it as a local variable in the relevant methods.(ãªÃî
+osquid:S1450"XRemove the "yaoqingma" field and declare it as a local variable in the relevant methods.(ºžƒü
+b
+squid:S128I"LEnd this switch case with an unconditional break, return or throw statement.(Ø¿Ûþ
+Nsquid:S1135."2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+ksquid:S00116"SRename this field "et_phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãªÃî
+ssquid:S00116"VRename this field "hide_layout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¢™“øÿÿÿÿ
+[squid:UselessImportCheck"7Remove this unused import 'android.widget.RadioButton'.(®éŽ«

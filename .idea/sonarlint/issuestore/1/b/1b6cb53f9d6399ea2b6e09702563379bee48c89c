@@ -1,0 +1,10 @@
+
+Zsquid:UselessImportCheck"6Remove this unused import 'java.io.InputStreamReader'.(„àŒ…
+Xsquid:UselessImportCheck"4Remove this unused import 'java.io.FileInputStream'.(ò≥…”
+Msquid:UselessImportCheck")Remove this unused import 'java.io.File'.(Ü–•≈
+Wsquid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(ÄÈ≤≈
+Bsquid:UselessImportCheck"Remove this duplicated import.(Ü–•≈
+Osquid:UselessImportCheck"+Remove this unused import 'java.io.Reader'.(µ˚®È
+Tsquid:UselessImportCheck"0Remove this unused import 'java.io.InputStream'.(πª∫ù
+Vsquid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(‘¶ÿ≤¯ˇˇˇˇ
+qsquid:S1450"ZRemove the "tvAgreement" field and declare it as a local variable in the relevant methods.(∑èÇª

@@ -147,7 +147,7 @@
             android:layout_weight="1"
             android:text="服务协议"
             android:textColor="@color/color_start"
-            android:textSize="11sp"/>
+            android:textSize="12sp"/>
 
         <TextView
             android:id="@+id/textView7"
@@ -155,7 +155,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="和"
-            android:textSize="11sp"/>
+            android:textSize="12sp"/>
 
         <TextView
             android:id="@+id/yinsizhengce"

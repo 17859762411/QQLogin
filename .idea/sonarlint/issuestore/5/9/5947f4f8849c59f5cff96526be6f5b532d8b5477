@@ -1,0 +1,20 @@
+
+~squid:S2178€"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(¸»Ú
+~squid:S2178"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(»Ğè„
+~squid:S2178"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(»Ğè„
+Dsquid:S1068("-Remove this unused "imgAvatar" private field.(ó
+osquid:S1450("XRemove the "imgAvatar" field and declare it as a local variable in the relevant methods.(ó
+˜squid:S1186S"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğ«Ôƒ
+squid:S1186]"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úƒÚÓûÿÿÿÿ
+™squid:S1186‰"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±
+™squid:S1186²"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±
+[squid:UselessImportCheck"2Remove this unused import 'android.widget.Switch'.(¬Ü´¹üÿÿÿÿ
+[squid:UselessImportCheck"2Remove this unused import 'android.view.KeyEvent'.(ôÊÃ–úÿÿÿÿ
+Usquid:UselessImportCheck",Remove this unused import 'android.net.Uri'.(òêû‘ıÿÿÿÿ
+Zsquid:UselessImportCheck"7Remove this unused import 'android.animation.Animator'.(İŸéN
+Tsquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+fsquid:UselessImportCheck"BRemove this unused import 'android.view.animation.AnimationUtils'.(µ¬
+asquid:UselessImportCheck"8Remove this unused import 'android.app.ActivityOptions'.(ş­¡½ùÿÿÿÿ
+Vsquid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ
+jsquid:UselessImportCheck"FRemove this unused import 'android.view.animation.LinearInterpolator'.(¾Öïº
+osquid:UselessImportCheck "KRemove this unused import 'android.widget.TextView.OnEditorActionListener'.(òóà‹
